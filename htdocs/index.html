@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>20151111勉強会</title>
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<!-- Navigation -->
+<nav id="nav" class="nav-1">
+  <h1 class="nav-1__h1">ブキの種別</h1>
+  <ul class="nav-1__items">
+    <li class="nav-1__item">
+      <a href="#all">すべて</a>
+    </li>
+    <li class="nav-1__item">
+      <a href="#shooter">シューター</a>
+    </li>
+    <li class="nav-1__item">
+      <a href="#roller">ローラー</a>
+    </li>
+    <li class="nav-1__item">
+      <a href="#charger">チャージャー</a>
+    </li>
+  </ul>
+</nav>
+
+
+
+<!-- View element -->
+<div id="buki"></div>
+
+
+<!-- Template -->
+<script type="text/template" id="base-template">
+  
+  <section class="buki-item all <%= category %>">
+    <h1 class="buki-item__h1">
+      <%= name %>
+    </h1>
+    <div class="buki-item__contents">
+      <a href="<%= imageL %>" data-lightbox="buki-l" data-title="<%= name %>" class="buki-item__keyvisual">
+        <img src="<%= imageS %>" alt="" />
+      </a>
+      <p>射程：<%= range %></p>
+      <% if(power){ %>
+        <p>威力：<%= power %></p>
+      <% } %>
+      <% if(speed){ %>
+        <p>速度：<%= speed %></p>
+      <% } %>
+    </div>
+  </section>
+  
+</script>
+
+
+<!-- JavaScript Library -->
+<script src="lib/underscore.js"></script>
+<script src="lib/jquery.js"></script>
+<script src="lib/backbone.js"></script>
+<script src="lib/isotope.js"></script>
+<script src="lib/lightbox.js"></script>
+
+<!-- JavaScript -->
+<script src="js/model.js"></script>
+<script src="js/collection.js"></script>
+<script src="js/view.js"></script>
+<script src="js/router.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

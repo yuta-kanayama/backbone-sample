@@ -1,0 +1,92 @@
+[
+  {
+    "category": "shooter",
+    "name": "スプラシューター",
+    "range": 50,
+    "power": 45,
+    "rapid": 55,
+    "imageS": "img/item_list_main01.png",
+    "imageL": "img/item_img_main01.png"
+  },
+  {
+    "category": "shooter",
+    "name": ".52ガロン",
+    "range": 50,
+    "power": 70,
+    "rapid": 30,
+    "imageS": "img/item_list_main02.png",
+    "imageL": "img/item_img_main02.png"
+  },
+  {
+    "category": "roller",
+    "name": "スプラローラー",
+    "range": 55,
+    "power": 50,
+    "lightness": 40,
+    "imageS": "img/item_list_main03.png",
+    "imageL": "img/item_img_main03.png"
+  },
+  {
+    "category": "shooter",
+    "name": "ホットブラスター",
+    "range": 25,
+    "power": 70,
+    "rapid": 20,
+    "imageS": "img/item_list_main04.png",
+    "imageL": "img/item_img_main04.png"
+  },
+  {
+    "category": "charger",
+    "name": "スプラチャージャー",
+    "range": 85,
+    "chargeRate": 50,
+    "mobility": 40,
+    "imageS": "img/item_list_main05.png",
+    "imageL": "img/item_img_main05.png"
+  },
+  {
+    "category": "shooter",
+    "name": "わかばシューター",
+    "range": 32,
+    "power": 27,
+    "rapid": 75,
+    "imageS": "img/item_list_main06.png",
+    "imageL": "img/item_img_main06.png"
+  },
+  {
+    "category": "charger",
+    "name": "スクイックリンα",
+    "range": 65,
+    "chargeRate": 70,
+    "mobility": 60,
+    "imageS": "img/item_list_main07.png",
+    "imageL": "img/item_img_main07.png"
+  },
+  {
+    "category": "roller",
+    "name": "ダイナモローラー",
+    "range": 72,
+    "power": 30,
+    "rapid": 20,
+    "imageS": "img/item_list_main08.png",
+    "imageL": "img/item_img_main08.png"
+  },
+  {
+    "category": "shooter",
+    "name": "ラピッドブラスター",
+    "range": 45,
+    "power": 35,
+    "mobility": 40,
+    "imageS": "img/item_list_main09.png",
+    "imageL": "img/item_img_main09.png"
+  },
+  {
+    "category": "shooter",
+    "name": "ジェットスイーパー",
+    "range": 80,
+    "power": 32,
+    "mobility": 40,
+    "imageS": "img/item_list_main10.png",
+    "imageL": "img/item_img_main10.png"
+  }
+]

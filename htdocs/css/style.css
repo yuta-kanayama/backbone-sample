@@ -1,0 +1,63 @@
+body {
+  background: #f0f0f0;
+}
+
+
+/*
+## .nav-1
+ナビゲーション
+*/
+
+.nav-1 {
+  
+}
+
+.nav-1__h1 {
+  font-size: 14px;
+}
+
+.nav-1__items {
+  padding: 0;
+}
+
+.nav-1__items:after{content:"";display:block;clear:both;}
+
+.nav-1__item {
+  float: left;
+  list-style: none;
+  margin-right: 1em;
+}
+
+
+
+/*
+## #buki
+ブキ一覧。
+*/
+
+#buki {
+  position: relative;
+  margin: 40px 0 0;
+}
+
+.buki-item {
+  /*width: 180px;*/
+  margin: 0 0 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px #ddd;
+}
+
+.buki-item__h1 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.buki-item__contents p {
+  margin: 0;
+}
+
+.buki-item__keyvisual:hover img {
+  opacity: .7;
+}
