@@ -2,6 +2,6 @@ var BukiList = Backbone.Collection.extend({
   
   model: Buki,
   
-  url: '/buki.json'
+  url: 'buki.json'
   
 });
